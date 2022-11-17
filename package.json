@@ -1,12 +1,11 @@
 {
   "name": "mini-object-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test/index",
-    "minify": "minify ./lib/index.js > index.js",
-    "publish": "npm run minify & npm publish"
+    "minify": "minify ./lib/index.js > index.js"
   },
   "author": {
     "name": "Paul Richez",
